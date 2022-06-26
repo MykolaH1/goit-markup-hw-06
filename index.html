@@ -379,13 +379,57 @@
       </div>
    </footer>
    <!--modal window-->
-   <div class="backdrop is-hidden" data-modal>
+   <div class="backdrop <!--is-hidden-->" data-modal>
       <div class="modal">
          <button class="modal-button" type="button" data-modal-close>
             <svg class="modal-close" width="18" height="18">
                <use href="./images/symbol-defs.svg#close"></use>
             </svg>
          </button>
+            <form class="form">
+               <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+               <p class="form-filed">
+                  <label for="name" class="form-label">Имя</label> 
+                  <input class="form-input" type="text" name="user-name" id="name" />
+                  <svg class="form-icon" width="18" height="18">
+                     <use href="./images/symbol-defs.svg#form-person"></use>
+                  </svg>
+               </p>
+               
+               <p class="form-filed">
+                  <label for="tel">Телефон</label>
+                  <input class="form-input" type="tel" name="tel" id="tel" />
+                  <svg class="form-icon" width="18" height="18">
+                     <use href="./images/symbol-defs.svg#form-phone"></use>
+                  </svg>
+               </p>
+
+               <p class="form-filed">
+                  <label for="mail">Почта</label>
+                  <input class="form-input" type="email" name="mail" id="mail" />
+                  <svg class="form-icon" width="18" height="18">
+                     <use href="./images/symbol-defs.svg#form-email"></use>
+                  </svg>
+               </p>
+               
+
+               <p class="form-filed">
+                  <label for="comment">Комментарий</label>
+                  <textarea class="form-comment" name="comment" id="comment" rows="8" placeholder="Введите текст"></textarea>
+               </p>
+              
+
+               <p class="form-filed form-policy">
+                  <input class="checkbox" type="checkbox" name="policy" id="policy">
+                  <label class="policy" for="policy">Соглашаюсь с рассылкой и принимаю <a href="#" class="policy-link">Условия договора</a></label>
+                  <svg class="form-check" width="18" height="18">
+                     <use href="./images/symbol-defs.svg#form-check"></use>
+                  </svg>
+               </p>
+               
+
+               <button class="button form-button" type="submit">Отправить</button>
+            </form>
       </div>
    </div>
 
