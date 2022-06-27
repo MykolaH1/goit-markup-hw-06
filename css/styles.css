@@ -778,7 +778,9 @@ input{
 .form-comment:focus {
    border: 1px solid #2196F3;
 }
-
+.coment-filed{
+   margin-bottom: 20px;
+}
 
 
 
@@ -787,6 +789,7 @@ input{
    align-items: baseline;
    flex-direction: row;
 
+   margin-bottom: 30px;
    padding-right: 11px;
    padding-left: 11px;
 }
